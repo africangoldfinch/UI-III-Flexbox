@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5 {
 	background-color: white;
 	margin: 0 auto;
 }
+header {
+	margin-bottom:20px;
+}
 
 header nav {
 	display:flex;
@@ -178,11 +181,6 @@ hr {
 
 
 /* the service page css commands */
-.services-container {
-	max-width: 900px;
-	background-color: white;
-	margin: 0 auto;
-}
 
 .services-overview {
 	padding-top: 20px;
@@ -191,4 +189,31 @@ hr {
 .content-services {
 	display: flex;
 	justify-content: space-evenly;
+	padding-top:20px;
+	
+}
+
+.services-main-content {
+	padding:10px;
+	border: 1px solid black;
+	margin-right:20px;
+	background-color: #F2F2F2;
+	flex-grow: 1;
+}
+
+.content-services button {
+	margin-top: 10px;
+	padding: 10px 20px;
+	margin-left: 150px;
+	
+}
+
+.last-content {
+	display:flex;
+}
+
+ul {
+	list-style:initial;
+	padding-left:20px;
+	margin-top: 20px;
 }
