@@ -104,6 +104,7 @@ div.cta-text h1 {
 	display: flex;
 	flex-direction: column;
 	align-content: baseline;
+	text-align: center;
 	
 }
 
@@ -124,8 +125,9 @@ div.cta-text h1 {
 .cta-text button {
 	background: none;
 	border: 1px solid grey;
-	margin-left: 150px;
+	margin-left: 18git 0px;
 	padding: 10px 20px;
+
 	
 }
 
@@ -172,4 +174,21 @@ footer {
 
 hr {
 	margin: 20px auto;
+}
+
+
+/* the service page css commands */
+.services-container {
+	max-width: 900px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.services-overview {
+	padding-top: 20px;
+}
+
+.content-services {
+	display: flex;
+	justify-content: space-evenly;
 }
